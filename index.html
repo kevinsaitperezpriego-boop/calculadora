@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Python</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.6.1/core.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://pyscript.net/releases/2026.6.1/core.js"></script>
+</head>
+<body>
+    <main class="calculadora">
+        <div class="marca">Calculadora</div>
+        <section class="pantalla">
+            <div id="operacion" class="operacion"></div>
+            <div id="resultado" class="resultado">0</div>
+        </section>
+        <section class="teclado">
+            <button id="btn-ac" class="boton boton-claro">AC</button>
+            <button id="btn-dividir" class="boton boton-operador">÷</button>
+            <button id="btn-multiplicar" class="boton boton-operador">×</button>
+            <button id="btn-restar" class="boton boton-operador">−</button>
+            <button id="btn-7" class="boton">7</button>
+            <button id="btn-8" class="boton">8</button>
+            <button id="btn-9" class="boton">9</button>
+            <button id="btn-sumar" class="boton boton-operador">+</button>
+            <button id="btn-4" class="boton">4</button>
+            <button id="btn-5" class="boton">5</button>
+            <button id="btn-6" class="boton">6</button>
+            <button id="btn-igual" class="boton boton-igual">=</button>
+            <button id="btn-1" class="boton">1</button>
+            <button id="btn-2" class="boton">2</button>
+            <button id="btn-3" class="boton">3</button>
+            <button id="btn-0" class="boton boton-cero">0</button>
+            <button id="btn-punto" class="boton">.</button>
+        </section>
+    </main>
+    <script type="py" src="./main.py" config='{"packages":[]}'></script>
+</body>
+</html>
